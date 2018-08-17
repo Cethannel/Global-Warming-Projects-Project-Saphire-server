@@ -1,0 +1,11 @@
+//Random number generator
+//First set
+scoreboard players add @e[type=minecraft:armor_stand,name="random1"] random1 1
+execute as @e[type=armor_stand,scores={random1=25},name="random1"] run scoreboard players set @e[type=armor_stand,scores={random1=25},name="random1"] random1 0
+scoreboard players add @e[type=minecraft:armor_stand,name="random1"] random2 1
+execute as @e[type=armor_stand,scores={random2=15},name="random1"] run scoreboard players set @e[type=armor_stand,scores={random2=15},name="random1"] random2 0
+//Second set
+scoreboard players add @e[type=minecraft:armor_stand,name="random2"] random1 1
+execute as @e[type=armor_stand,scores={random1=25},name="random2"] run scoreboard players set @e[type=armor_stand,scores={random1=25},name="random2"] random1 0
+scoreboard players add @e[type=minecraft:armor_stand,name="random2"] random2 1
+execute as @e[type=armor_stand,scores={random2=15},name="random2"] run scoreboard players set @e[type=armor_stand,scores={random2=15},name="random2"] random2 0
