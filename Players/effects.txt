@@ -1,1 +1,2 @@
 /execute as @a[team=fire] at @a[distance=..20,team=ice] run particle minecraft:dripping_water ~ ~ ~
+/execute as @a[team=ice] at @a[distance=..20,team=fire] run particle minecraft:fire ~ ~ ~
