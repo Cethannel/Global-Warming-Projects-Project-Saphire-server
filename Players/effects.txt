@@ -1,0 +1,1 @@
+/execute @a[team=fire] ~ ~ ~ execute @e[r=20,team=ice] ~ ~ ~ summon area_effect_cloud ~ ~ ~ {Particle:"dripping_water",Radius:1f,Duration:100}
